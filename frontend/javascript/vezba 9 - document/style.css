@@ -1,0 +1,157 @@
+ body{
+    position:relative;
+} 
+
+
+.left{
+    width: 40%;
+    height: 1000px;
+    background-color: bisque;
+    /* position: relative; */
+    
+}
+
+.profile-img{
+    width: 19%;
+    height: 201px;
+    background-color: white;
+    position: absolute;
+    left: 60px;
+    margin: 77px;
+}
+
+.img-left{
+    width: 100%;
+    height: 201px;
+
+}
+
+.profile{
+width:100%;
+height: 201px; 
+}
+
+.biography{
+    width: 19%;
+    height:603px;
+    background-color: white;
+    left: 139px;
+    top: 395px;
+    position: absolute;
+}
+
+.right{
+    width: 61%;
+    height: 1000px;
+    background-color: #bbe5e8;
+    position: absolute;
+    left: 533px;
+    top: 0px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 67px;
+}
+
+.flex-part{
+    height: 100px;
+    width: calc(100%/5 - 10px);
+    border: 1px solid #efefef;
+    background-color: white;
+    box-sizing: border-box;
+    margin:4px;
+}
+
+ .flex-img{
+    width:100%;
+    height: 100px;
+    
+}
+
+
+
+.posts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+
+.post{
+    height: 137px;
+    width: 81%;
+    border: 1px solid #efefef;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 47px;
+
+}
+.open{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width:400px;
+    height: 400px;
+    display: flex;
+}
+
+.open-img{
+    width:100%;
+    height:100%;
+}
+
+.kopce{
+    width: 100px;
+    height: 50px;
+}
+
+.popup{
+    display: flex;
+    position: absolute;
+    top: 173px;
+    left: 245px;
+    background: green;
+    width: 61%;
+    height: 50%;
+}
+
+
+
+ .img-popup{
+    width: 100%;
+    height: 100%;
+    
+} 
+
+#leftArrow {
+    position:absolute;
+    font-size: 64px;
+    top: 213px;
+    cursor: pointer;
+    
+}
+#rightArrow {
+    position:absolute;
+    font-size: 64px;
+    left: 777px;
+    top: 213px;
+    cursor: pointer;
+    
+}
+
+#myBtn{
+    position: absolute;
+    left: 97%;
+    cursor: pointer;
+    
+}
+
+#exit{
+    position: absolute;
+    font-size: 30px;
+
+}
