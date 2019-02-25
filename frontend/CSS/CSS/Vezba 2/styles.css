@@ -1,0 +1,76 @@
+.body-wrap {
+    margin: 0 auto;
+    width: 1100px;
+    height: auto;
+}
+
+header {
+    height: 45px;
+    position: fixed;
+    width: 1100px;
+    z-index: 1;
+    background-color: white; 
+    top: 0;
+}
+.widget2 {
+    width: 50%;
+    clear: both;
+    margin: 0 auto 30px;
+    position: relative; 
+}
+
+.logo1{
+    position: absolute;
+    left: 20px;
+    bottom:1px;
+    height:70px;
+    background-color: #fff;
+    
+}
+
+.slika2 {
+    position: absolute;
+    bottom: 25px;
+    right: 5px;
+    height: 70px;
+    padding: 5px;
+    background-color: #fff;
+}
+.widget3 {
+    width: 60%;
+    margin: 0 auto 30px;
+    position: relative;
+}
+.slika3 {
+    width: 100%;
+}
+.slika4{
+    position:absolute;
+    bottom: 25px;
+    right: 5px;
+    height: 60px;
+    background-color: white
+}
+.logo {
+    height: 40px;
+}
+.go-to-top{
+    position: sticky;
+    bottom: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #dedede;
+    border-radius: 30px;
+    text-align: center;
+    
+    
+
+}
+.go-to-top-link{
+    text-decoration: none;
+    color: black;
+    
+    
+}

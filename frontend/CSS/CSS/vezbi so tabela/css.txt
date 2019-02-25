@@ -1,0 +1,59 @@
+.one {
+  height: 30px;
+  border-radius: 5px;
+  border: none
+  border-color:grey;
+  margin: 30px 
+}
+
+.two {
+  margin-left: 70px
+    
+  
+}
+
+.kolicina {
+  
+  border-radius:4px;
+ margin-left:15px;
+  width:40px
+  
+    
+  
+}
+
+button {
+  background: grey;
+  height: 30px;
+  color: white;
+  border-radius: 5px
+    
+  
+}
+
+img{
+  height: 30px
+    
+}
+.granica{
+  border-bottom: none;
+  color: grey;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+button:hover{
+  background-color: yellow;
+}
+
+a:hover {
+  color: green; 
+}
+
+table {
+  
+  border-spacing: 10px
+    
+}

@@ -1,0 +1,65 @@
+.one div{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.two div {
+    background-color:red;
+    color: white;
+    padding: 20px;
+
+}
+.one {
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+}
+.two {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+
+}
+
+.box {
+    background-color: yellow;
+    color:white;
+    padding: 20px;
+}
+
+.three {
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.box1 {
+    grid-column: 1;
+    grid-row:1/3;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box1 div:first-child {
+    background-color: gray;
+    grid-column: 1/4;
+    grid-row:1;
+    z-index: 1;
+}
+.box div:nth-child(2){
+    background-color: brown;
+    grid-column: 3;
+    grid-row: 1/3;
+}
+.box div:last-child{
+    background-color: grey;
+    grid-column: 1/3;
+    grid-row:2/3;
+}
+
+
+ 

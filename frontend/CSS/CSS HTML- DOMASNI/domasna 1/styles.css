@@ -1,0 +1,51 @@
+div{
+    height: auto;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.left{
+    height: 150px;
+    width: 41%;
+}
+
+.left li{
+    float:right;
+    margin:10px;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.left li:hover{
+    color:#cfcfcf;
+}
+.right {
+    height: 150px;
+    width: 10%;
+    float: right;
+    margin-top: -153px;
+}
+.right li{
+    color:#cfcfcf;
+}
+.sublist{
+    display: none;
+}
+.sublist li {
+    color:#1d5f7c;
+    list-style-type: square;
+}
+
+
+.active:hover .sublist{ 
+    display: block;
+
+}

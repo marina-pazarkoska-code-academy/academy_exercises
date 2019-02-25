@@ -1,0 +1,40 @@
+.grid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 230px);
+    grid-gap: 10px;
+}
+
+.grid-part{
+    display: flex;
+    grid-gap: 10px;
+    background-color: bisque;
+}
+
+.grid img{
+    width: 100%;
+    height: 117px;
+    object-fit: cover;
+    margin-bottom: 115px;
+}
+p{
+    height: 61px;
+    width: 100%;
+    margin-top: 187px;
+    margin-left: -416px;
+}
+
+.grid .grid-part:nth-child(1){
+    grid-column: 1/2; 
+    grid-row:1/2;
+}
+.grid .grid-part:nth-child(3){
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.grid .grid-part:nth-child(5){
+    grid-column: 3;
+    grid-row: 1/2;
+}

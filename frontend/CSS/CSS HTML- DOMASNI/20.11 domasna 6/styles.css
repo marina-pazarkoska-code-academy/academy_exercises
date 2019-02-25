@@ -1,0 +1,308 @@
+body{
+    background-color:#e1e4ea;
+    
+}
+.body-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+    margin:auto;
+    
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: relative;  
+}
+.menu {
+    width: auto;
+    flex-wrap:nowrap;
+}
+.menu-wrap{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.logo1{
+    height: 50px;
+    width: 52px;  
+}
+.menu ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.search {
+    display: flex;
+
+}
+.search-input{
+    border-color: grey;
+    height: 35px;
+    margin-top: 6px;
+}
+.search img{
+    height: 42px;
+    
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.menu ul li{
+    display: inline;
+    margin: 0 30px 0;
+}
+.center{
+    width: 73%;
+    background-color:#e1e4ea;
+    height: 120px;
+    flex-direction: column;
+    position: relative;
+    margin:auto;
+}
+
+.slider-img {
+    width: 100%;
+    height: 350px;
+    margin-top:20px;
+ 
+}
+.slider ::before{
+    content: url(arrow-left.png);
+    position: absolute;
+    left: -60px;
+    margin: -226px 47px 20 16px;
+}
+.slider ::after{
+    content: url(arrow-right.png);
+    position: absolute;
+    left: -60px;
+    margin: -225px 47px 20 1057px;
+}
+
+    
+.logo3 {
+    width: 13%;
+    height: 106px;
+    position: absolute; 
+    left:84px;
+    top:363px;
+}
+h3{
+    margin:25px 263px;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+
+}
+.dot{
+    background-color: grey;
+    border-radius: 20px; 
+   width: 10px;
+    height: 10px;
+    margin:5px;
+
+}
+.dots :nth-child(9){
+    background-color: white;
+
+}
+h2 {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+.flex-widget{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    
+}
+.flex-part{
+    display: flex;
+    height: 123px;
+    border: 1px solid #f5f5f5;
+    background-color: white;
+}
+.voucher{
+    color:grey;
+    margin: 143px 40px 25px -138px;
+    font-size:17px;
+}
+.title{
+    margin-top:120px;
+}
+.parahrpahs{
+    margin:10px;
+}
+.prg1{
+    font-size:17px;
+
+}
+
+hr{
+    border:  none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height: 230px;
+    width: 17px;
+    margin-top: -204px;
+}
+.prg2{
+    float: right;
+    margin-right: -2px;
+    margin-top:-245px;
+    font-size:16px;
+}
+.prg3 {
+    margin-left: 400px;
+    color:grey;  
+}
+.text-coupons{
+    margin-bottom: -11px;
+}
+.coupons {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 50px;
+}
+.coupon{
+    width: 100%;
+    display: flex;
+    height: 140px;
+    background-color: white;
+}
+.coupon img{
+    height: 100%;
+}
+
+.coup-right{
+    margin:20px;
+}
+
+.coup-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+.categories{
+    height:30px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.categorie{
+    display: flex;
+    background-color: white;
+    color: gray;
+    border:none;
+    width: 150px;
+    justify-content: center;
+    
+}
+.one {
+    background-color:blue;
+    color: white;
+    display: flex;
+    border:none;
+    width: 150px;
+    justify-content: center;
+}
+.deals{
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.deal{
+    background-color: white;
+    width: 100%;
+    height: calc(100%/5 - 20px);
+    display: flex;
+    margin-top: 25px;
+    
+}
+.deal-text{
+    display: flex;
+    position: absolute;
+    left: 350px;}
+    
+.deal-text1{
+    color: blue;
+    margin: 4px 10px 0px;
+    position: absolute;
+    right: 203px;
+
+}
+.deal-text2{
+    margin: 38px 0px 0px -81px;
+}
+.deal-text3{
+    font-size:14px;
+    position: absolute;
+    left: 270px;
+    margin: 77px auto;
+    color: grey;
+}
+.deal-button{
+    width: 224px;
+    height: 40px;
+    position: absolute;
+    left: 700px;
+    margin: 35px 0px 0px -27px;
+}
+
+.deal-button:hover{
+    background-color: black;
+    color:white;
+}
+.footer{
+    height: 101px;
+    width: 150%;
+    background-color: white;
+    position: absolute;
+    right: -301px;
+    margin-top: 40px;
+
+}
+.fot-text{
+    position: absolute;
+    left: 182px;
+    font-size: 13px;
+    color:grey;
+
+}
+.footer-menu{
+    display:flex;
+    position: absolute;
+    top: 82px;
+    left: 120px;
+}
+.fot-link{
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+    
+
