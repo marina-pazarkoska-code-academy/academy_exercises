@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="ClubAhotel.css">
+    <title>Marina Travel</title>
+</head>
+<body>
+    <header>
+        <div class="menu-wrap">
+            <nav class="menu">
+                <img id = 'logo' src ='logo.png'/>
+                <ul>
+                    <li class="active"><a href="index.html"><b>Почетна</b></a></li>
+                    <li class="has-dropdown"><a href="index1.html"><b>Зима</b>
+
+                    </a>
+                        <ul class="dropdown">
+            
+                        </ul>
+                    </li>
+                    <li><a href="summer.html"><b>Лето</b></a></li>
+                    <li><a href="aboutus.html"><b>За нас</b></a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <div class = 'hotel-body'>
+            <div class="carousel-wrapper">
+                    <span id="item-1"></span>
+                    <span id="item-2"></span>
+                    <span id="item-3"></span>
+                    <div class="carousel-item item-1">
+                      
+                      <a class="arrow arrow-prev" href="#item-3"></a>
+                      <a class="arrow arrow-next" href="#item-2"></a>
+                    </div>
+                    
+                    <div class="carousel-item item-2">
+                      
+                      <a class="arrow arrow-prev" href="#item-1"></a>
+                      <a class="arrow arrow-next" href="#item-3"></a>
+                    </div>
+                    
+                    <div class="carousel-item item-3">
+                      
+                      <a class="arrow arrow-prev" href="#item-2"></a>
+                      <a class="arrow arrow-next" href="#item-1"></a>
+                    </div>
+                  </div>
+
+          <div class = 'information'>
+              <p>Hotel Club A се наоѓа во срцето на живопосниот ски ресорт Копаоник. На надморска висина од 1750m, Club A ја претвори
+            страста кон гостопримството во своја најзначајна карактеристика, која ги комбинира луксузот и удобноста со 
+             уникатноста и традицијата.</br></br>
+
+            Club A има 93 ѕдобно уредени соби- еднокреветни, двокреветни, трокреветни. Во сите соби има бесплатен 
+            пристап до интернет, мини бар, фен и крпи.
+            За потребите на фамилиите, можна е резервација на две конектирани двокреветни соби.</br></br>
+                    
+                Комплетно нов café-restoran, конференциска сала, Spa & Wellness (со голем базен, салон за масажа, 
+                сауна и џакузи), детска игротека, фризерски салон,бесплатен интернет пристап, паркинг...тоа се само
+                 некои од услугите кои им стојат на располагање на гостите.</br></br>
+                    
+                Појадок и вечера (полупансион) се служат по принцип шведска маса. Во обновениот кафе ресторан гостите
+                 имаат можност да уживаат со чаша варено вино покрај разгорениот камин. Сите продукти кои се користат во
+                  подготвувањето на оброците се купуваат од локалните селски домаќинства и произведувачи.</p>
+
+                  <div class = 'stats'>
+                   <div  class="icon_box">
+                       <img id = 'ski' src = 'data:image/webp;base64,UklGRngBAABXRUJQVlA4TGsBAAAvF8AFEE/DKJIkRal/Na6AY3gyzYhQ27YNw/+/9ewUpZEkKZ2/+AzfM1mqchtJkiId36mnsf8OPv9UF9mkDZ3ayb6Bpjbe25+l2bQP27fT79fba0kQRlAICgAUROGHAgAABAIEQSACUkPwBxACBEIk9sQEHyLBIApfiC8E+OIHAUgOfAEKgXjGETyCBwB+EOINiJFsm7b2s23bvljP+rZtI/8QHs4OIaL/ity2bZjVdesvaH1U/w8PSRxy4H6E7R/hqvC1i8G1TxKctFznPez/VkTvYy8bwGFYqovKgO6JdfCQ2+m9CWh+stQZPnwC/SaJYsEN7Cks5PkuEk88RjxOwM7zDNzxPALb1bS5xoJ5F16W8f5rRGU5C4XLvGMA0wxR41S3SpncWpbgWKYojGvG5ThYSCUTn8AfOaBfI7XZ3djaOpOPMHrqz7XrrksfN9fX75QeA1ec/2m/9mc2lVH5A1wUiBP+TZNCS0EA'>
+                       150 m 
+                       <div id = "show" class = 'icon_desc'>
+                           Оддалеченост од најблиската ски лифт во нормални снежни услови.
+                   </div>
+
+                   <div class="icon_box">
+                        <img id = 'way'src = 'data:image/webp;base64,UklGRt4BAABXRUJQVlA4TNEBAAAvF8AFEFekNJKkqPNPh2RQOCQO9bi7IwaFbds2/P/gzA4ljSRJ5V/Qelm07OCx/w5AjiTJcRtGVkMDlD9pBROHsfUF6/bPvvn/fPuN13nb3/3vctx7iwghnABDgCEABDhDwgAh+CAAwAAhDAHgjBAgKAgCYYAAAEMAgAA3SBgEwhEnwAABAtwRBgjDAEMIAQCGcEI44wqAIQAEybZNO/vbth3bxlNs27ZtZ9oXyRAi+j8BoPec2Cvb2yptJz3g3y8Twu9XV+9hsXSP60X0zIO64BWeOW6lVwXK6vn5igLlTbphLLZ+AAeFcmenXLgPfLUu0FyFvbgR/Tv9/bsB4Rp9JU6KWrjAese3AgDKT/sqLgUVoWsbhDO/G9SeAgeG2rWEIR89LU9gPjd3o8hAmIKYkvdZh/I4IibCmMKQfMI6lQaQMRL6xl4Um1mWQvQ26QmNvI/H9k3aVsc9DmQNgbQLvbH6A+KwIdwDdxrUM3ENIz4p8fOblL3D2BDPaF3ZsAIcWzNp6xGgRLNdNGwLd+B8ELbB/mpZZa23fIKzL145QZusivXxYLIqPUQMZ6smwT9XnxgBRpN1c/jrcm1ueiavdgl/n6uorimfxX+OhUJj4AQA'>
+                        100 m 
+                        <div id = 'show1'class = 'icon_desc'>
+                                Оддалеченост од најблиската ски патека во нормални снежни услови.
+                       </div>
+                    </div>
+
+                    <div class="icon_box">
+                            <img id = 'bus' src = 'data:image/webp;base64,UklGRooBAABXRUJQVlA4TH4BAAAvF8AFEDfDoJEkReVf5zMz85swkLZN/Gv+V4aRJCnp/PPE3XkD1pFkRWF2eeB965f552cCkkjrgtYCAIAbzz1plxbEUlC/Q1uxLoVuLRgACOBD+095Sb5/g6tO1FN5ku+udtvT79jKzQOYurezb1x6t9v/o12+hAYBGIIhZAgAACEDCCNGCCcCAyYIHQCYAAaAAQEAjA5gQMDoYBgACAEBdAgIPTIEwQABACBGsm3aWo/ftq1nzDO++fRtK/8crk4IEf2fAEmqHHWev6KJdDLy83J1Vi/K1t9J4fH/2GYWaNdcPkB2wLIInFdcXgMLlmX+3jzGWJIUXKchj/esBeRbhQtvrPjCcWgYiIfNhbbMbIY0b2ZOGjQzJQ3B04nHd5iUhjE6IY2YGZdGzYxJg8Dz7qVDtr33ajcO2bLy23YfOVWBCak3C3WVk3aRkvaBaak7BfHbXxy/75JAn9S1gcFMj6T+A/isu2zCzYysZXiTy0NoybbwmDh1U/7cqUsC'>
+                            50 m 
+                            <div id = 'show2'class = 'icon_desc'>
+                                    Возниот ред на ски автобусот се наоѓа на рецепцијата или во турист инфо центарот во местото.
+                           </div>
+                        </div>
+                  </div>
+
+                
+
+          </div>
+
+          <h2>Цените важат од ноември до февруари</h2>
+
+          <table id  = 'myTable'>
+            <tr>
+                <th>КЛУБ А ХОТЕЛ</th>
+                <th>ЦЕНИ ПО ЛИЦЕ(ЕУР)  </th>
+            </tr>
+            <tr>
+                    <th>СОБИ</th>
+                    <th>1 ноќевање</th>
+                    <th>2-3 ноќевања</th>
+                    <th>4-5 ноќевања </th>
+                    <th>6-7 ноќевања </th>
+            </tr>
+            <tr>
+                    <td>Еднокреветна</td>
+                    <td>36 ЕУР</td>
+                    <td>32 ЕУР</td>
+                    <td>28 ЕУР</td>
+                    <td>26 ЕУР</td>
+                  </tr>
+
+                  <tr>
+                        <td>Двокреветна</td>
+                        <td>34 ЕУР</td>
+                        <td>30 ЕУР</td>
+                        <td>28 ЕУР</td>
+                        <td>26 ЕУР</td>
+                      </tr>
+                        
+                
+                     <tr>
+
+                     <td>Трокреветна</td>
+                     <td>32 ЕУР</td>
+                     <td>34 ЕУР</td>
+                     <td>28 ЕУР</td>
+                     <td>20 ЕУР</td>
+                   
+                     </tr>
+
+                  
+     </table>
+     <a href="#" id = 'reservation' class="btn btn-bubble">РЕЗЕРВИРАЈ</a>
+
+     <div class="wrapper-no4">
+      <button class="button-bird">
+          <p class="button-bird__text">ИСПРАТИ</p>
+          <svg version="1.1" class="feather" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 75 38" style="enable-background:new 0 0 75 38;" xml:space="preserve">
+          <g>
+              <path d="M20.8,31.6c3.1-0.7,2.9-2.3,2,1c9.1,4.4,20.4,3.7,29.1-0.8l0,0c0.7-2.1,1-3.9,1-3.9c0.6,0.8,0.8,1.7,1,2.9
+                  c4.1-2.3,7.6-5.3,10.2-8.3c0.4-2.2,0.4-4,0.4-4.1c0.6,0.4,0.9,1.2,1.2,2.1c4.5-6.1,5.4-11.2,3.7-13.5c1.1-2.6,1.6-5.4,1.2-7.7
+                  c-0.5,2.4-1.2,4.7-2.1,7.1c-5.8,11.5-16.9,21.9-30.3,25.3c13-4,23.6-14.4,29.1-25.6C62.8,9,55.6,16.5,44.7,20.7
+                  c2.1,0.7,3.5,1.1,3.5,1.6c-0.1,0.4-1.3,0.6-3.2,0.4c-7-0.9-7.1,1.2-16,1.5c1,1.3,2,2.5,3.1,3.6c-1.9-0.9-3.8-2.2-5.6-3.6
+                  c-0.9,0.1-10.3,4.9-22.6-12.3C5.9,17.7,11.8,26.9,20.8,31.6z"/>
+          </g>
+          </svg>
+          <span class="bird"></span>
+          <span class="bird--1"></span>
+          <span class="bird--2"></span>
+          <span class="bird--3"></span>
+          <span class="bird--4"></span>
+          <span class="bird--5"></span>
+          <span class="bird--6"></span>
+          <span class="bird--7"></span>
+          <span class="bird--8"></span>
+          <span class="bird--9"></span>
+          <span class="bird--10"></span>
+          <span class="bird--11"></span>
+          <span class="bird--12"></span>
+          <span class="bird--13"></span>
+          <span class="bird--14"></span>
+          <span class="bird--15"></span>
+          <span class="bird--16"></span>
+          <span class="bird--17"></span>
+          <span class="bird--18"></span>
+          <span class="bird--19"></span>
+          <span class="bird--20"></span>
+          <span class="bird--21"></span>
+          <span class="bird--22"></span>
+          <span class="bird--23"></span>
+          <span class="bird--24"></span>
+          <span class="bird--25"></span>
+          <span class="bird--26"></span>
+          <span class="bird--27"></span>
+          <span class="bird--28"></span>
+          <span class="bird--29"></span>
+          <span class="bird--30"></span>
+      </button>
+   </div>
+
+
+
+
+
+
+    </div>
+    
+    <script src = "club.js"></script>
+    <script src = "jquery.js"></script>
+    <script src = "main.js"></script>
+</body>
+</html>   

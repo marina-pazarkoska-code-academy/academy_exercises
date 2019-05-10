@@ -1,0 +1,197 @@
+body{
+    background-image:url("mk.jpg");
+   background-size:150%;
+}
+
+
+.wrap{
+    background: transparent;
+    margin: 10px auto 25px;
+    padding: 0 4px;
+    position: relative;
+    overflow: visible;
+    height: 700px;
+    width: 80%;
+}
+
+header{
+    display: flex;
+    height: 50px;
+    /* overflow: hidden; */
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 80%;
+    left: 143px;
+    top: 16%;
+
+}
+
+.body-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  
+}
+.menu-wrap{
+    width:100%;
+    margin-left: 109px;
+}
+
+header .menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    margin-top: -53px;
+    
+}
+
+header .menu ul li {
+    padding: 10px 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #2d2d2d;
+    margin-left: 150px;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size:20px;
+    
+}
+#logo {
+    width: 24%;
+    margin-top: -95px;
+    margin-left: -119px;
+}
+.winter-body{
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    /* margin: 0 auto; */
+    top: 25%;
+    left: 143px; 
+    
+}
+
+#k-slider{
+    width: 100%;
+    position: relative;
+    height: 70%;
+}
+.kocka{
+    height: 85px;
+    width: 173px;
+    background-color: #b2151a;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.locations {
+  
+    background-color: white;
+    border-style: ridge;
+   
+}
+
+.grid{
+ display:grid;
+ grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(20, 50px);
+    grid-gap:7px;
+}
+
+.grid div:nth-child(1) {
+    grid-column: 1/7;
+    grid-row: 1/4;
+}
+
+.grid div:nth-child(2) {
+    grid-column: 1/7;
+    grid-row: 4/7;
+}
+.grid div:nth-child(3) {
+    grid-column: 1/7;
+    grid-row: 7/10;
+}
+.grid div:nth-child(4) {
+    grid-column: 1/7;
+    grid-row: 10/13;
+}
+
+.grid div:nth-child(5) {
+    grid-column: 1/7;
+    grid-row: 13/16;
+}
+.grid div:nth-child(6) {
+    grid-column: 1/7;
+    grid-row: 16/19;
+}
+
+#a-hotel{
+    width: 30%;
+    height: 100%;
+}
+h2{
+    margin-top: -134px;
+    margin-left: 369px;
+    font-size: 23px;
+    
+}
+h2:hover{
+    text-decoration: underline;
+    color: #b2151a;
+}
+   
+.star{
+    display: inline-block;
+    width: 31px;
+    height: 25px;
+    margin-right: -42px;
+    margin-bottom: 77px;
+    margin-left: 35px;
+}
+
+.w-link{
+    text-decoration: none;
+  }
+  h4{
+    margin-left: 364px;
+    margin-top: 34px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #555555;
+  }
+  .signs{
+      
+      width: 30px;
+      margin-left:65px;
+  }
+  .sign{
+    margin-left: 636px;
+    width: 39%;
+    height: 50px;
+    margin-top: -47px;
+  }
+  .information{
+    position: absolute;
+    background: #2C3E50;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 11px;
+    width: 150px!important;
+    display: none;
+    z-index: 9999999999;
+  }
+
+
+  .hotels{
+    display: inline-block;
+    position:relative;
+  }

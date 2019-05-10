@@ -1,0 +1,126 @@
+
+#background{
+    width: 100%;
+    height: 76%;
+    position:fixed;
+    margin: -10px;
+    
+}
+
+
+.wrap{
+    margin: 10px auto 25px;
+    position: relative;
+    height: 481px;
+    width: 80%;
+}
+
+
+header{
+    position: fixed;
+    width: 80%;
+}
+
+
+.menu-wrap{
+    width:100%;
+}
+
+header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+header .menu ul li {
+    padding: 10px 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #2d2d2d;
+    margin-left: 150px;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size:20px;
+    
+}
+#logo {
+    margin-left: 444px;
+    width:14%;
+}
+
+.footer-menu{
+    /* background: rgba(108, 171, 233, 0.459); */
+    height: 200px;  
+    width: 100%;
+}
+
+.follow{
+ height:150px;
+width: 150px;
+position: fixed;
+margin-left: 278px;
+margin-top: -14px;
+
+}
+.icon-img{
+    height: 36px;
+    width: 33px;
+    margin-top: -13px;
+    margin-left: 12px;
+}
+#follow-text{
+    margin-left: 20px;
+}
+p{
+    margin-left: 15px;
+}
+.contact{
+    height:140px;
+  width: 200px;
+  margin-left: 579px;
+   position: fixed;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color:#333333;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:hover {
+    color: #23527c;
+}
+address {margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+
+}
+.glyphicon-home:before {
+    content: "\e021";
+}
+#contact-text{
+    margin-top: 2px;
+    margin-left: 12px;
+}
+.map{
+    width: 200px;
+    height: 200px;
+    margin-left: 900px;
+    
+}
+iframe{
+    width: 200px;
+    height: 300px;
+}
+
+

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bali.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+                <div class="menu-wrap">
+                    <nav class="menu">
+                        <img id = 'logo' src ='logo.png'/>
+                        <ul>
+                            <li class="active"><a href="index.html"><b>Почетна</b></a></li>
+                            <li class="has-dropdown"><a href="index1.html"><b>Зима</b>
+        
+                            </a>
+                                <ul class="dropdown">
+                               <!-- <li><a>Text1</a></li>
+                                <li><a>Text2</a></li> -->
+                                
+                                </ul>
+                            </li>
+                            <li><a href="summer.html"><b>Лето</b></a></li>
+                            <li><a href="aboutus.html"><b>За нас</b></a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </header>
+            
+        
+            <div class = "summer-body">
+                    <div id= "k-slider"><img id= "bali-img" src= "image/bali-slider.jpg"/></div>
+                    <div class= "kocka"><h1>БАЛИ</h1></div>
+            <div class = bali-body> 
+                    <h1 class = "text1">БАЛИ ЛЕТО - 2019 - Гарантирани поаѓања</h1>
+                    <h4 id = "tekst2">АВИОН + АЕРОДРОМСКИ ТАКСИ + ХОТЕЛ + ТРАНСФЕР + 3 ЕКСКУРЗИИ</h4>
+                    <div class="part1"><p class = paragraph1><strong>Бали – Рајскиот остров на боговите.</strong> Сместен во југоисточна Азија, на екваторијалниот премин на Индинскиот со Тихиот Океан,
+                        Индонезија, овој тропски остров е толку сликовит што на прв поглед ќе ви се чини нереален. Опкружен е со кристално
+                         чисто море и долги, бели песочни плажи, додека во внатрошноста владеат џунгли, високи вулкански планински масиви, 
+                         сликовити локални населби и импресивни оризови тераси. Бали е дестинација и атракција за секој посетител. Плени со 
+                         богатото историско наследство за кое балижаните се особено горди. Овој народ успеал да ја задржи својата долга 
+                         верска традиција која се отсликува на секој начин во секојдневниот живот на населението и во архитектурата која 
+                         изобилува со величенствени храмови и палати.</p> </div>
+                         <div><img id = "bali-map"src ="map-bali.jpg"></div>
+
+             <div class = 'galery'><h3 class= "galery-title">Галерија</h3></div>
+             <div class = "photos">
+                 <div class = "flex">
+                     <img onclick="openModal();currentSlide(1)"  class = "photo" src = "https://wheretoflynextcom.files.wordpress.com/2016/11/ubud-hanging-gardens-double-infinity-pool-worlds-best-pool.jpg?w=1000">
+                    </div>
+                 <div class = "flex">
+                     <img onclick="openModal();currentSlide(2)"  class = "photo" src = "https://t-ec.bstatic.com/images/hotel/max1024x768/114/114555626.jpg">
+                    </div>
+                 <div class = "flex">
+                     <img onclick="openModal();currentSlide(3)" class = "photo" src = "http://www.sacredmythicjourneys.com/wp-content/uploads/2018/05/beach-sky-sunset-rocks-clouds-hidden-ocean-bali-trees-waves-sand-indonesia-island-house-beautiful-beaches-wallpapers-hd.jpg">
+                    </div>
+                 <div class = "flex">
+                     <img onclick="openModal();currentSlide(4)"  class = "photo" src = "https://s20642.pcdn.co/wp-content/uploads/2017/02/jungle-1920242_1280-1184x888.jpg">
+                    </div>
+                 <div class = "flex">
+                     <img onclick="openModal();currentSlide(5)"  class = "photo" src = "http://www.balinatatour.com/wp-content/uploads/2017/06/AFTERNOON-ULUWATU-SUNSET-DINNER-TOUR2.jpg">
+                    </div>
+                 <div class = "flex">
+                     <img onclick="openModal();currentSlide(6)"  class = "photo" src = "https://data.whicdn.com/images/327559030/large.jpg">
+                    </div>
+                </div>
+
+                
+                  
+                  <!-- The Modal/Lightbox -->
+                  <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="https://wheretoflynextcom.files.wordpress.com/2016/11/ubud-hanging-gardens-double-infinity-pool-worlds-best-pool.jpg?w=1000" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="https://t-ec.bstatic.com/images/hotel/max1024x768/114/114555626.jpg" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="http://www.sacredmythicjourneys.com/wp-content/uploads/2018/05/beach-sky-sunset-rocks-clouds-hidden-ocean-bali-trees-waves-sand-indonesia-island-house-beautiful-beaches-wallpapers-hd.jpg" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="https://s20642.pcdn.co/wp-content/uploads/2017/02/jungle-1920242_1280-1184x888.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                         <div class="numbertext">5 / 6</div>
+                        <img src="http://www.balinatatour.com/wp-content/uploads/2017/06/AFTERNOON-ULUWATU-SUNSET-DINNER-TOUR2.jpg" style="width:100%">
+                      </div>
+
+                     <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="https://data.whicdn.com/images/327559030/large.jpg" style="width:100%">
+                     </div>
+                  
+                      <!-- Next/previous controls -->
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  
+                      <!-- Caption text -->
+                      <div class="caption-container">
+                        <p id="caption"></p>
+                      </div>
+                  
+                      
+                    </div>
+                  </div>
+                     
+             
+             <div class = 'cenovnik'><h3 class= "galery-title">Ценовник</h3></div>
+             <div id = 'ceni'>
+                 <table id  = 'myTable'>
+                        <tr>
+                            <th>ХОТЕЛИ НА БАЛИ</th>
+                            <th>ЦЕНИ ПО ЛИЦЕ(ЕУР)  </th>
+                        </tr>
+                        <tr>
+                                <th>ВВ-НОЌЕВАЊЕ СО ПОЈАДОК</th>
+                                <th>9 НОЌИ </br> 18.06 - 27.06</th>
+                                <th>9 НОЌИ </br> 16.07 - 25.07</th>
+                                <th>9 НОЌИ </br> 27.08 - 05.09</th>
+                        </tr>
+                        <tr>
+                                <td>THE ASANA KUTA 3*</td>
+                                <td>949</td>
+                                <td>1099</td>
+                                <td>1029</td>
+                              </tr>
+
+                              <tr>
+                                    <td>WINA KUTA 3*</td>
+                                    <td>959</td>
+                                    <td>1119</td>
+                                    <td>1049</td>
+                                    
+                                  </tr>
+                                 <tr>
+
+                                 <td>TAMAN AGUNG 3*</td>
+                                        <td>939</td>
+                                        <td>1089</td>
+                                        <td>1119</td>
+                                 </tr>
+
+                                <tr>
+                                  <td>IBIS STYLE BENOA NUSA DUA 3*</td>
+                                     <td>999</td>
+                                    <td>1189</td>
+                                     <td>1099</td>
+                                </tr>
+
+                                <tr>
+                                    <td>BUMAS HOTEL SANUR 3*</td>
+                                    <td>939</td>
+                                    <td>1099</td>
+                                    <td>1039</td>
+                             </tr>
+
+                              
+                 </table>
+
+             </div>
+             <div class = 'programa'><h3 class= "galery-title">Програма на патување</h3>
+                <div class = 'program'>
+                    <p>
+                        <b>1 ден</b> СКОПЈЕ – ДЕНПАСАР
+                        Состанок на групата на аеродромот Скопје, два часа пред лет.</br>
+                     </br>
+    
+                        <b>2 ден</b> ДЕНПАСАР        
+                       Пристигнување во Денпасар (Бали). По завршување на пасошка и царнска контрола се упатуваме кон нашиот хотел на Бали. Слободне време. Ноќевање </br>
+                     </br>
+                       <b>3 - 10 ден</b>  БАЛИ
+                     Појадок. Слободни денови за индивидуални прошетки, шопинг, капење, сончање или одмор. Вклучени екскурзии (Убавините на Кинтамани – целодневен; Мистичен Источен Бали – целодневен; ОЛЕ ОЛЕ – полудневен). Ноќевање.</br>
+                    </br>
+                     <b>11 ден</b> БАЛИ – СКОПЈЕ
+                     Појадок. Одјавување од хотел. Оставање на багажот во хотел. Слободен ден за индивидуални прошетки, шопинг, капење, сончање. Трансфер до аеродром за Лет кон Скопје</br>
+                    </br>
+                     <b>12 ден</b> СКОПЈЕ
+                     Пристигнување во Скопје. Крај на програмата 
+                    </p>
+                </div>
+                
+            </div>
+             <div class = 'zabeleski'><h3 class= "galery-title">Забелешки</h3></div>
+                <div class = 'zabeleski1'>
+                  
+                    <a href="">Цените вклучуваат:</a>
+                    <ul>
+                        <li>Повратна авиопнска карта од Скопје со лет на Qatar Airlines со вклучени аеродромски такси.</li>
+                        <li>Сместување во некој од понудените хотели на база 9, ноќевања со појадок, во двокреветна соба.</li>
+                        <li>Повратни трансфери аеродром – хотел – аеродром на Бали.</li>
+                        <li>3 Екскурзии на Бали –  2 целодневни и 1 полудневна</li>
+                        <li>Пречек и асистенција на претставник на партнерот на Аурора за време на престојот на Бали.</li>
+                    </ul>
+
+                    <a href="">Цените не вклучуваат:</a>
+                    <ul>
+                        <li>Оброци, пијалоци и услуги надвор од програмата. </li>
+                        <li>Патничко здравствено осигурување </li>
+                    </ul>
+
+                    <a href="">Забелешки:</a>
+                    <ul>
+                        <li>Цените се во Евра а плаќањето исклучиво во денари, по курс од 62мкд за 1еур.</li>
+                        <li>Цените може да претрпат промени во зависност од тарифите на моментално расположливите места на летовите со QATAR AIRWAYS.     </li>
+                        <li>Цените на пакетите се валидни за резервации до 10.02.2019 </li>
+                        <li>Пакетите важат за минимум 2 лица со сместување во основен тип на двокреветна соба (“Run of the House”).   </li>
+                        <li>Условите за сместување на 3то лице во соба (дете под 12год. или возрасен) како и доплатите за 1/1 соба варираат во зависност од хотелот и истите се на барање. </li>
+                        <li>Виза за Индонезија за сопственици на македонски пасоши не е потребна, доколку се поседува валиден пасош (6месеци+ важност), повратна авионска карта и ваучер.</li>
+                        <li>За резервација потребен е депозит во износ од 50% од вкупната цена на аранжманот, односно најмалку 500еур по лице, а доплата се врши 30дена пред поаѓање.</li>
+                    </ul>
+                    
+                </div>
+                
+                
+            </div>
+            <footer class = "footer-menu">
+              <div class = "follow">
+                 <h3 id = 'follow-text'>FOLLOW US</h3>
+                 <img class="icon-img" src = "https://securecdn.pymnts.com/wp-content/uploads/2018/02/facebookpublisher.jpg">
+                 <img  class="icon-img" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBkIcfES39VIky4BoxUrTFvvLc2XsyY88pzZ-8C_LuA1MFXZ45">
+                 <img  class="icon-img" src = "https://blog.addthiscdn.com/wp-content/uploads/2015/11/twitter.jpg">
+                 <p>© Marina Travel <br> Agency Ltd 2019</p>
+             </div>
+    
+              <div class = "contact">
+                 <h3 id ="contact-text">CONTACT US</h3>
+                 <address>
+                        <span class = "glyphicon-envelope"><i>&#9993;</i></span>
+                        <a class = "contact-menu"href = "mailito:info@marinatravel.com">info@marinatravel.com</a>
+                        <br> <br>
+    
+                        <span class = "glyphicon-phone"><i>&#9742;</i></span>
+                        <a href = "tel:078-811-938">078-811-938</a>
+                        <br>  <br>
+    
+                        <span class = "glyphicon-home"></span>
+                        "Sv.Kliment Ohridski"
+                 </address>
+             </div> 
+    
+             <div class = "map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14299.096517696451!2d20.802870688250483!3d41.11236891608034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5895fa607ad36f55!2sTourist+Agency+Kompas+Travel!5e0!3m2!1sen!2smk!4v1556355771491!5m2!1sen!2smk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+             </div>  
+    
+    
+         </footer>
+
+            </div>
+            
+                </div>
+                <script src = "jquery.js"></script>
+                <script src = "main.js"></script>
+                
+    
+</body>
+</html>

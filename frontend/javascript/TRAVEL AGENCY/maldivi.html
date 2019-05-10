@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="maldivi.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+                <div class="menu-wrap">
+                    <nav class="menu">
+                        <img id = 'logo' src ='logo.png'/>
+                        <ul>
+                            <li class="active"><a href="index.html"><b>Почетна</b></a></li>
+                            <li class="has-dropdown"><a href="index1.html"><b>Зима</b>
+        
+                            </a>
+                                <ul class="dropdown">
+                               <!-- <li><a>Text1</a></li>
+                                <li><a>Text2</a></li> -->
+                                
+                                </ul>
+                            </li>
+                            <li><a href="summer.html"><b>Лето</b></a></li>
+                            <li><a href="aboutus.html"><b>За нас</b></a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </header>
+            
+        
+            <div class = "summer-body">
+                        <img id= "k-slider" src= "http://images.idividi.com.mk/images/maldivi10.jpg"/>
+                        <div class= "kocka"><h1>МАЛДИВИ</h1></div>
+                <div class = bali-body> 
+                        <h1 class = "text1">МАЛДИВИ ЛЕТО - 2019 - Гарантирани поаѓања</h1>
+                        <h4 id = "tekst2">АВИОН + АЕРОДРОМСКИ ТАКСИ + ХОТЕЛ + ТРАНСФЕР + 3 ЕКСКУРЗИИ</h4>
+                        <div class="part1"><p class = paragraph1>Рајски архипелаг од околу 1190 острови, групирани во атоли кои како 
+                прстени се расфрлени низ Индискиот океан, со највисока надморска височина од 1.5m, податок кој сигурно
+                ќе Ве эачуди. Но, коралните гребени кои ги опкружуваат овие острови го смируваат океанот и ги чуваат 
+                островите и нивните жители со векови.Острови со бел корален песок, кокосови палми, 
+                изобилие од тропски растенија, како и прекрасниот и необичен подводен свет. Места кои  се одликуваат со
+                 својата единственост и кои никогаш повторно нема да ги најдете… тоа се токму овие рајски острови Малдивите.
+                Местоположбата, морето, ветерот и сонцето заедно формираат идеални услови за престој. Температурата се
+                 движи од 23 до 32 степени, но умерениот ветер кој постојано дува го прави престојот на островите
+                 пријатен. Дождовите обично се присутни во периодот јуни – јули, но сепак неможете да ги предвидите.
+                  Се појавуваат одеднаш без предупредување и веданш исчезнуваат.</p> </div>
+                             <div><img id = "maldivi-map"src ="http://www.maldivesbest.com/wp-content/uploads/2012/07/maldives-map-11.jpg"></div>
+    
+                 <div class = 'galery'><h3 class= "galery-title">Галерија</h3></div>
+                 <div class = "photos">
+                     <div class = "flex">
+                         <img onclick="openModal();currentSlide(1)"  class = "photo" src = "https://www.superodmor.rs/data/images/2016-11-14/126885_maldivi-shutterstock345773612_origh.jpg?ver=1479131063">
+                        </div>
+                     <div class = "flex">
+                         <img onclick="openModal();currentSlide(2)"  class = "photo" src = "http://www.luxurytopics.com/chest/timg/1489578600_luksuz-turizam-odmor-destinacija-putovanje-maldivi%20(23).jpg">
+                        </div>
+                     <div class = "flex">
+                         <img onclick="openModal();currentSlide(3)" class = "photo" src = "https://d2p1cf6997m1ir.cloudfront.net/media/places/countries/89/7f/37/4343/maldives-by-air.jpg">
+                        </div>
+                     <div class = "flex">
+                         <img onclick="openModal();currentSlide(4)"  class = "photo" src = "https://www.travelhouse.rs/data/images/2016/06/22/16/1311_sejseli1640x440_1024x768.jpg?ver=1466608130">
+                        </div>
+                     <div class = "flex">
+                         <img onclick="openModal();currentSlide(5)"  class = "photo" src = "https://www.falcon.rs/sites/default/files/styles/930x480/public/turisticki-aranzmani/mm.jpg?itok=JfHhVfJM">
+                        </div>
+                     <div class = "flex">
+                         <img onclick="openModal();currentSlide(6)"  class = "photo" src = "https://static.toiimg.com/thumb/65230478/Maldives.jpg?width=748&height=499">
+                        </div>
+                    </div>
+    
+                    
+                      
+                      <!-- The Modal/Lightbox -->
+                      <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                      
+                          <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                            <img src="https://www.superodmor.rs/data/images/2016-11-14/126885_maldivi-shutterstock345773612_origh.jpg?ver=1479131063" style="width:100%">
+                          </div>
+                      
+                          <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="http://www.luxurytopics.com/chest/timg/1489578600_luksuz-turizam-odmor-destinacija-putovanje-maldivi%20(23).jpg" style="width:100%">
+                          </div>
+                      
+                          <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="https://d2p1cf6997m1ir.cloudfront.net/media/places/countries/89/7f/37/4343/maldives-by-air.jpg" style="width:100%">
+                          </div>
+                      
+                          <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="https://www.travelhouse.rs/data/images/2016/06/22/16/1311_sejseli1640x440_1024x768.jpg?ver=1466608130" style="width:100%">
+                          </div>
+    
+                          <div class="mySlides">
+                             <div class="numbertext">5 / 6</div>
+                            <img src="https://www.falcon.rs/sites/default/files/styles/930x480/public/turisticki-aranzmani/mm.jpg?itok=JfHhVfJM" style="width:100%">
+                          </div>
+    
+                         <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="https://static.toiimg.com/thumb/65230478/Maldives.jpg?width=748&height=499" style="width:100%">
+                         </div>
+                      
+                          <!-- Next/previous controls -->
+                          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      
+                          <!-- Caption text -->
+                          <div class="caption-container">
+                            <p id="caption"></p>
+                          </div>
+                      
+                          
+                        </div>
+                      </div>
+                         
+                 
+                 <div class = 'cenovnik'><h3 class= "galery-title">Ценовник</h3></div>
+                 <div id = 'ceni'>
+                     <table>
+                            <tr>
+                                <th>ХОТЕЛИ НА МАЛДИВИ</th>
+                                <th>ЦЕНИ ПО ЛИЦЕ(ЕУР)  </th>
+                            </tr>
+                            <tr>
+                                    <th>ВВ-НОЌЕВАЊЕ СО ПОЈАДОК</th>
+                                    <th>7 НОЌИ </br> 01.07 - 07.07</th>
+                                    <th>10 НОЌИ </br> 01.07 - 10.07</th>
+                                    <th>10 НОЌИ </br> 15.08 - 25.08</th>
+                            </tr>
+                            <tr>
+                                    <td>FUN ISLAND 3*</td>
+                                    <td>890 €</td>
+                                    <td> 1.145 €</td>
+                                    <td>1099 €</td>
+                                  </tr>
+    
+                                  <tr>
+                                        <td>HOLIDAY ISLAND 4*</td>
+                                        <td>1.122 €</td>
+                                        <td>1.395 €</td>
+                                        <td>1.195 €</td>
+                                      </tr>
+                                     <tr>
+    
+                                     <td>SUN ISLAND 5*</td>
+                                            <td> 1.153 €</td>
+                                            <td>1.504 €</td>
+                                            <td>1.254 €</td>
+                                     </tr>
+    
+                                    <tr>
+                                      <td>ROYAL ISLAND 5*</td>
+                                         <td>1.347 € </td>
+                                        <td>1.707 €</td>
+                                         <td>1.300 €</td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td>Cinnamon Dhonveli Maldives 4* </td>
+                                        <td>1.122 €</td>
+                                        <td>1.605 €</td>
+                                        <td>1.300 €</td>
+                                 </tr>
+    
+                                  
+                     </table>
+    
+                 </div>
+                 <div class = 'programa'><h3 class= "galery-title">Програма на патување</h3>
+                    <div class = 'program'>
+                        <p>
+                            <b>Скопје – Доха</b>
+                            Полетување за Мале преку Доха во 11:40 часот со Qatar Airlines. Слетување на аеродромот во Доха во 18:25 часот.
+
+                        </br>
+                         </br>
+        
+                            <b>Мале</b>        
+                            Пристигнување во Мале. Пречек на аеродром од страна на претставник на партнерската компанија и трансфер до избраниот хотел со брз брод (глисер), хидроавион. Пристигнување во хотелот и сместување. Ноќевање.  </br>
+                         </br>
+                           <b>Малдиви </b>  
+                           Сонце, бел песок, водите на Индискиот Океан, стотици напуштени островчиња, топли лагуни со нијанси на сина, тиркизна и зелена боја, “подводни градини” од корали. Првата асоцијација при споменувањето на Малдиви е егзотика, романтика, релаксација и смирувачка топлина, која овој тропски рај ни ги дарува. Ве уверуваме дека токму тоа ќе го пронајдете тука.
+                           За сите љубители на водните спортови и истражување на подводниот свет има можност за дополнителни екскурзии од хотелите.</br>
+                        </br>
+                         <b>Мале –Доха</b> 
+                         Појадок. Слободно време за плажа и забава. Трансфер од хотел до аеродромот во Мале со лет на Qatar Airlines, и полетување за Скопје преку Доха.</br>
+                        </br>
+                         <b>Доха-Скопје</b> 
+                         Пристигнување во Скопје во 10:40ч.
+                        </p>
+                    </div>
+                    
+                </div>
+                 <div class = 'zabeleski'><h3 class= "galery-title">Забелешки</h3></div>
+                    <div class = 'zabeleski1'>
+                      
+                        <a href="">Цените вклучуваат:</a>
+                        <ul>
+                            <li>Асистенција на аеродром во Мале од страна на локалниот партнер.</li>
+                            <li>повратен трансфер од аеродром до остров,</li>
+                            <li>7/10 ноќевања на база на наведената услуга</li>
+                           
+                        </ul>
+    
+                        <a href="">Цените не вклучуваат:</a>
+                        <ul>
+                            <li>Патничко осигурување,</li>
+                            <li>Авионски карти до Мале</li>
+                            <li>излети и екскурзии</li>
+                        </ul>
+    
+                        <a href="">Забелешки:</a>
+                        <ul>
+                            <li>Цените се во Евра а плаќањето исклучиво во денари, по курс од 62мкд за 1еур.</li>
+                            <li>Цената на Авионските е карти е според моменталнато пребарување и истата може да варира при правењето на резервација во зависност од расположливоста на места  </li>
+                            <li>Аеродромските такси се подложни на промени по одлука на авиокомпаниите  </li>
+                            
+                        </ul>
+                        
+                    </div>
+                    
+                    
+                </div>
+                <footer class = "footer-menu">
+                  <div class = "follow">
+                     <h3 id = 'follow-text'>FOLLOW US</h3>
+                     <img class="icon-img" src = "https://securecdn.pymnts.com/wp-content/uploads/2018/02/facebookpublisher.jpg">
+                     <img  class="icon-img" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBkIcfES39VIky4BoxUrTFvvLc2XsyY88pzZ-8C_LuA1MFXZ45">
+                     <img  class="icon-img" src = "https://blog.addthiscdn.com/wp-content/uploads/2015/11/twitter.jpg">
+                     <p>© Marina Travel <br> Agency Ltd 2019</p>
+                 </div>
+        
+                  <div class = "contact">
+                     <h3 id ="contact-text">CONTACT US</h3>
+                     <address>
+                            <span class = "glyphicon-envelope"><i>&#9993;</i></span>
+                            <a class = "contact-menu"href = "mailito:info@marinatravel.com">info@marinatravel.com</a>
+                            <br> <br>
+        
+                            <span class = "glyphicon-phone"><i>&#9742;</i></span>
+                            <a href = "tel:078-811-938">078-811-938</a>
+                            <br>  <br>
+        
+                            <span class = "glyphicon-home"></span>
+                            "Sv.Kliment Ohridski"
+                     </address>
+                 </div> 
+        
+                 <div class = "map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14299.096517696451!2d20.802870688250483!3d41.11236891608034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5895fa607ad36f55!2sTourist+Agency+Kompas+Travel!5e0!3m2!1sen!2smk!4v1556355771491!5m2!1sen!2smk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                 </div>  
+        
+        
+             </footer>
+    
+                </div>
+                
+                    </div>
+                    <script src = "jquery.js"></script>
+                    <script src = "main.js"></script>
+                    
+    
+</body>
+</html>
